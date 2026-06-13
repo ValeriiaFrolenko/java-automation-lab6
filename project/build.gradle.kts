@@ -1,9 +1,15 @@
 plugins {
     id("java")
+    id("checkstyle")
 }
 
 group = "frolenko"
 version = "1.0-SNAPSHOT"
+
+checkstyle {
+    toolVersion = "13.5.0"
+    configFile = file("config/checkstyle/checkstyle.xml")
+}
 
 repositories {
     mavenCentral()

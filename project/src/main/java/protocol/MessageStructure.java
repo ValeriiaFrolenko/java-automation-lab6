@@ -14,7 +14,7 @@ public final class MessageStructure {
      * model.Message Header Size: 8 bytes (Command Type + User ID)
      */
 
-    private MessageStructure() {}
+    private MessageStructure() { }
 
     public static final int LEN_CMD_TYPE = 4;
     public static final int LEN_USER_ID = 4;

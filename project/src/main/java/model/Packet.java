@@ -5,7 +5,7 @@ public class Packet {
     private long bPktId;
     private Message bMsq;
 
-    public Packet() {}
+    public Packet() { }
 
     public Packet(byte bSrc, long bPktId, Message bMsq) {
         this.bSrc = bSrc;

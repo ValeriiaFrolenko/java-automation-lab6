@@ -22,7 +22,7 @@ public final class PacketStructure {
      * Minimum model.Packet Size: 18 bytes (Header  + Header CRC16 + model.Message CRC16 with empty payload)
      */
 
-    private PacketStructure() {}
+    private PacketStructure() { }
 
     public static final byte MAGIC_BYTE = 0x13;
 

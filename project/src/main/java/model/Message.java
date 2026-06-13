@@ -1,6 +1,6 @@
 package model;
 
-public class Message{
+public class Message {
     private int cType;
     private int bUserId;
     private String message;

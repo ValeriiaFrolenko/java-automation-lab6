@@ -7,7 +7,7 @@ import utils.Crc16;
 
 import java.nio.ByteBuffer;
 
-public class PacketEncoder{
+public class PacketEncoder {
 
     private final byte[] key;
 
